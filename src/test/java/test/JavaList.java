@@ -204,14 +204,12 @@ public class JavaList {
         list.add("test 3");
 
         //  람다를 사용하여 데이터를 꺼냄냄
-       Stream<String> stream = list.stream();
+        Stream<String> stream = list.stream();
 
         stream.forEach(element -> {
             System.out.println(element);
         });
 
-
     }
-
 
 }
