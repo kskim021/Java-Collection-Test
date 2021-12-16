@@ -13,7 +13,7 @@ public class JavaStack {
     @Test
     public void javaStackTest() {
         //  한 쪽 끝에서만 자료(데이터)를 넣고 뺄 수 있는 형식의 자료 구조
-        //  가장 나중에 들어간 데이터가 맨 처음 데이터
+        //  가장 나중에 들어간 데이터가 먼저 나감
         Stack<String> stack = new Stack();
         stack.push("1");    // 데이터 추가
         stack.push("2");
